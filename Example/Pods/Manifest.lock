@@ -1,0 +1,29 @@
+PODS:
+  - HSA_Moudle (0.1.0):
+    - HSRouter
+    - SnapKit
+  - HSRouter (0.1.1)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - HSA_Moudle (from `../`)
+  - HSRouter
+
+SPEC REPOS:
+  https://github.com/ZJKCode/HSSpecs.git:
+    - HSRouter
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  HSA_Moudle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSA_Moudle: 9010f9721bb2986e518b75843394f4f8d5051ff3
+  HSRouter: 5e15f23edf54a09c92b4cc2a27d693ce5e8133b1
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: c24b6988d6bb0b0e4672381d80ba2623df60caad
+
+COCOAPODS: 1.11.2

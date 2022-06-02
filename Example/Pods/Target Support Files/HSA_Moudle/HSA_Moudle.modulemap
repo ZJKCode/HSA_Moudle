@@ -1,0 +1,6 @@
+framework module HSA_Moudle {
+  umbrella header "HSA_Moudle-umbrella.h"
+
+  export *
+  module * { export * }
+}

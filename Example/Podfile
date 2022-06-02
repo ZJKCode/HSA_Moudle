@@ -1,0 +1,15 @@
+source 'https://github.com/ZJKCode/HSSpecs.git'
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'HSA_Moudle_Example' do
+#  pod 'HSRouter',:path => '../../HSRouter'
+  pod 'HSA_Moudle', :path => '../'
+  pod 'HSRouter'
+  target 'HSA_Moudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
